@@ -1,0 +1,40 @@
+body {
+    background-color: #cff8fa;  
+    font: 12pt sans-serif;
+    padding: 10pt 10pt 10pt 10pt ;
+    margin:0;
+    line-height:120%
+}
+
+#page {
+    padding: 10pt 10pt 10pt 10pt;
+    margin: 0;
+    color: #000000; 
+    background: #cff8fa;
+    max-width: 750pt;  
+    border:0px;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    text-align: justify;
+    font-size: 14px; 
+    line-height: 1.1;
+}
+#title {
+    border-radius: 10pt 10pt 0 0;
+    padding: 10pt 10pt 10pt 10pt;
+    margin:  0; 
+    overflow: hidden; 
+    border:0;
+    max-width: 750pt; 
+    position: relative; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#erclogo { 
+    float :inline-end; 
+    margin: 0; 
+    border: none ; 
+    border-radius: 10pt 10pt 10pt 10pt; 
+}
