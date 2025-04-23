@@ -1,11 +1,20 @@
 body {
-    background-color: #cff8fa;  
-    font: 12pt sans-serif;
-    padding: 10pt 10pt 10pt 10pt ;
-    margin:0;
-    line-height:120%
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 2em;
+    background-color: #cff8fa;
+    color: #333;
 }
 
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+  
 #page {
     padding: 10pt 10pt 10pt 10pt;
     margin: 0;
@@ -38,3 +47,67 @@ body {
     border: none ; 
     border-radius: 10pt 10pt 10pt 10pt; 
 }
+h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px solid #4a90e2;
+    display: inline-block;
+  }
+  
+  h4 {
+    font-size: 1.4em;
+    margin: 1.5em 0 0.5em;
+    color: #4a4a4a;
+  }
+  
+  .member-list.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+  }
+  
+  .member-card {
+    background-color: #e2fcff;
+    border-radius: 10px;
+    padding: 0.8em 1em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    width: fit-content;
+  }
+  
+  .member-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .member-link {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.2rem
+  }
+  
+  .member-link:hover {
+    color: #1a4368;
+  }
+  
+  .icon {
+    font-size: 1.1em;
+  }
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .member-name {
+    font-weight: 600;
+    color: #2b6cb0;
+  }
+  
+  .member-role {
+    font-size: 0.95rem;
+    color: #666;
+  }
